@@ -28,11 +28,20 @@ Send a rabbit from the 1st car to the 0th: increment x[0], decrement x[1], resul
 Send a rabbit from the 1st car to the 2nd: increment x[2], decrement x[1], resulting in [2,2,2].
 
 All the elements are of the array are equal now, and you've got a strategy to report back to Beta Rabbit!
+
+Note that if the array was [1,2], the maximum possible number of equal elements we could get is 1, 
+as the cars could never have the same number of rabbits in them.
+
+Write a function answer(x), which takes the array of integers x and returns the maximum number of 
+equal array elements that we can get, by doing the above described command as many times as needed.
+
+The number of cars in the train (elements in x) will be at least 2, and no more than 100. 
+The number of rabbits that want to share a car (each element of x) will be an integer in the range [0, 1000000].
 """
 
 def answer(x):
 
-Note that if the array was [1,2], the maximum possible number of equal elements we could get is 1, as the cars could never have the same number of rabbits in them.
+
 
 Write a function answer(x), which takes the array of integers x and returns the maximum number of equal array elements that we can get, by doing the above described command as many times as needed.
 
