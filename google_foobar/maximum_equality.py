@@ -41,8 +41,3 @@ The number of rabbits that want to share a car (each element of x) will be an in
 
 def answer(x):
 
-
-
-Write a function answer(x), which takes the array of integers x and returns the maximum number of equal array elements that we can get, by doing the above described command as many times as needed.
-
-The number of cars in the train (elements in x) will be at least 2, and no more than 100. The number of rabbits that want to share a car (each element of x) will be an integer in the range [0, 1000000]."""
